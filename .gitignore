@@ -1,4 +1,8 @@
 lib/
 backup/
+*.exe
+*.lps
+*.res
+
 #ignore thumbnails created by windows
 Thumbs.db
