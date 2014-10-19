@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="9"/>
+    <PathDelim Value="\"/>
+    <General>
+      <SessionStorage Value="InProjectDir"/>
+      <MainUnit Value="0"/>
+      <Title Value="Saturn"/>
+      <ResourceType Value="res"/>
+      <UseXPManifest Value="True"/>
+      <Icon Value="0"/>
+    </General>
+    <i18n>
+      <EnableI18N LFM="False"/>
+    </i18n>
+    <VersionInfo>
+      <UseVersionInfo Value="True"/>
+      <AutoIncrementBuild Value="True"/>
+      <MinorVersionNr Value="3"/>
+      <BuildNr Value="243"/>
+      <StringTable ProductName="Saturn" ProductVersion=""/>
+    </VersionInfo>
+    <BuildModes Count="2">
+      <Item1 Name="Default" Default="True"/>
+      <Item2 Name="Final">
+        <CompilerOptions>
+          <Version Value="11"/>
+          <PathDelim Value="\"/>
+          <Target>
+            <Filename Value="Saturn"/>
+          </Target>
+          <SearchPaths>
+            <IncludeFiles Value="$(ProjOutDir)"/>
+            <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+          </SearchPaths>
+          <Linking>
+            <Debugging>
+              <GenerateDebugInfo Value="False"/>
+              <StripSymbols Value="True"/>
+            </Debugging>
+            <Options>
+              <Win32>
+                <GraphicApplication Value="True"/>
+              </Win32>
+            </Options>
+          </Linking>
+          <Other>
+            <CompilerMessages>
+              <MsgFileName Value=""/>
+            </CompilerMessages>
+            <CompilerPath Value="$(CompPath)"/>
+          </Other>
+        </CompilerOptions>
+      </Item2>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+      <DestinationDirectory Value="C:\Users\Roberto\Desktop\Saturn0.3-src"/>
+      <IncludeFileFilter Value="*.(pas|pp|inc|lfm|lpr|lrs|lpi|lpk|sh|xml|ico|html)"/>
+      <ExcludeFileFilter Value="*.(bak|ppu|o|so);*~;backup"/>
+    </PublishOptions>
+    <RunParams>
+      <local>
+        <FormatVersion Value="1"/>
+        <CommandLineParams Value="--debug-log=Debug.log"/>
+      </local>
+    </RunParams>
+    <RequiredPackages Count="3">
+      <Item1>
+        <PackageName Value="FCL"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="SynEdit"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="LCL"/>
+      </Item3>
+    </RequiredPackages>
+    <Units Count="23">
+      <Unit0>
+        <Filename Value="Saturn.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Saturn"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="umain.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmMain"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uMain"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="usettings.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uSettings"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="ufsettings.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmSettings"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="ufSettings"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="ueditorfile.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uEditorFile"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="vinfo.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="vinfo"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="uhashtable.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uHashTable"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="upackconfigurations.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmPackConfigs"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uPackConfigurations"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="uabout.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmAbout"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uAbout"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="upacker.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uPacker"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="uexporter.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uExporter"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="uobjects.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uObjects"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="usearchreplace.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmSearchReplace"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uSearchReplace"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="uvariablefetcher.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uVariableFetcher"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="uexternalvariables.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uExternalVariables"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="ucontainers.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uContainers"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="upackerresults.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmPackerResults"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="uPackerResults"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="ukerboscripthighlighter.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uKerboscriptHighlighter"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="utokens.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uTokens"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="usyntaxcheck.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uSyntaxCheck"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="umarkup.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uMarkup"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="umarkuplist.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uMarkupList"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="usyntaxcheckingerrors.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uSyntaxCheckingErrors"/>
+      </Unit22>
+    </Units>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <PathDelim Value="\"/>
+    <Target>
+      <Filename Value="Saturn"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+      <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+    </SearchPaths>
+    <CodeGeneration>
+      <Optimizations>
+        <OptimizationLevel Value="0"/>
+      </Optimizations>
+    </CodeGeneration>
+    <Linking>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+    <Other>
+      <CompilerMessages>
+        <IgnoredMessages idx2005="True"/>
+        <MsgFileName Value=""/>
+      </CompilerMessages>
+      <CustomOptions Value="-dDEBUG"/>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
+  </CompilerOptions>
+</CONFIG>
